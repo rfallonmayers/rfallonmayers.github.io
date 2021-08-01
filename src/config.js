@@ -35,7 +35,8 @@ var config = {
     footer: 'Source: source citations, etc.',
     chapters: [
         createPOI(
-        	[-123.137186, 49.275323], 'Burrard Street Bridge', 'First edit was here',
+        	[-123.137186, 49.275323], 'Burrard Street Bridge', 'According to participants, the Burrard Bridge bike lane infrastructure was one of the pivotal moments for cycling in the City of Vancouver. There had been a trial bike lane in 1996, which failed miserably. 
+            The media called this trial an enormous failure, with news stories calling it “Carmageddon” because there was a lot of car traffic, few cyclists, and angered residents.In 2005, Vision Vancouver was elected, and Greggor Robertson became Mayor. Greggor Robertson had a plan to implement cycling infrastructure on the Burrard Bridge, and this time, it was considered a success and became permanent. Logan, who was at the city, explained, “one great thing about engineering in Vancouver is they respond extremely well to political leadership. So they were given that space”. Adam, an advocate, explained the history of the Burrard Bridge and how important it was for Vision Vancouver to have a linchpin win at the beginning of their term. He stated: ',
         	[ { layer: 'bikeways', opacity: 1.0 } ], [ { layer: 'building-extrusion', opacity: 0.3 } ] ),
         createPOI( 
         	[-123.137186, 49.275323], 'Burrard Street Crashes Involving Cyclists', 'INPUT TEXT HERE', 
