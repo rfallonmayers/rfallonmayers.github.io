@@ -27,7 +27,7 @@ In 2005, Vision Vancouver was elected, and Greggor Robertson became Mayor. Gregg
 
 var config = {
     //style: 'mapbox://styles/mapbox/streets-v11',
-    style: 'mapbox://styles/rmayers2/ckrdsuoup0toz17oaiyp4fjuk?fresh=true',
+    style: 'mapbox://styles/rmayers2/ckrdsuoup0toz17oaiyp4fjuk?fresh=true',     
     accessToken: 'pk.eyJ1Ijoicm1heWVyczIiLCJhIjoiY2traXFlZ2h1MDZhaTJxcWE1aXRzdjZwbiJ9.ueBPJKAxZLRVVvLG_oWO2A',
     showMarkers: true,
     markerColor: '#3FB1CE',
@@ -39,7 +39,7 @@ var config = {
     footer: 'Source: source citations, etc.',
     chapters: [
         createPOI(
-        	[-123.137186, 49.275323], 'Burrard Street Bridge', 
+        	[-123.137186, 49.275323], 'Burrard Street Bridge', firstParaText,
         	[ { layer: 'bikeways', opacity: 1.0 } ], [ { layer: 'building-extrusion', opacity: 0.3 } ] ),
         createPOI( 
         	[-123.137186, 49.275323], 'Burrard Street Crashes Involving Cyclists', 'INPUT TEXT HERE', 
