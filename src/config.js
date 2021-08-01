@@ -67,6 +67,14 @@ That was when Sarah knew cycling in Vancouver was there to stay, and they had su
 
 `;
 
+const fourthParaText = `The Seaside Greenway was approved by council in 2013. The Greenway, as explained by participants, is a prime example of the City engineers and planners working with the Park Board to plan, invest, engage the public, and implement a place to walk, bike, and roll. Some participants spoke about the contentious relationship the transportation department has with the Park Board in Vancouver, and these types of projects tend to get political quickly. This project was an example of the transportation department and Park Board working well together. Yet, this relationship changed once the infrastructure at Kitts Point was discussed. Ellis, an advocate who was working with both the Park Board and city transportation department at the time, recalled: 
+“The park board connection, actually for me personally, started with a commitment to seeing that the whole Seaside Greenway improved from Olympic Village West. And so we were very involved in making sure that that stretch between the Cambie Bridge and Burrard Bridge happened. And I feel very proud of what happened there because I think we were catalysts, and we were certainly involved the whole way along. And we keep using that as an example where it was the city of Vancouver, residents, the various stakeholders, the Park Board, working together quite well and managed to create something that's fabulous and is working really well. And then I thought you could then transport that so that we're now going West of Burrard Bridge Kitts beach area, connecting with the new infrastructure...and then realizing, you know, that had become an area that nobody wanted to touch because of that mess that happened early as it was so nasty and so ugly. And then what I realized in working on that is that, in fact, it was much deeper. That whole thing I was telling you about the entrenched culture and the park board anti-bike”.
+
+Despite the culture of transportation and the perception of cycling in Vancouver becoming more positive, it was not the case everywhere or for everyone. The groups with the mechanisms of influence and power who did not want cycling infrastructure continued to express their opinions, and those opinions were taken seriously. 
+`;
+
+
+
 var config = {
     //style: 'mapbox://styles/mapbox/streets-v11',
     style: 'mapbox://styles/rmayers2/ckrdsuoup0toz17oaiyp4fjuk?fresh=true',     
@@ -100,7 +108,7 @@ var config = {
         	[-123.103500, 49.277440], 'Dunsmuir Street Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data' ,
         	[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
         createPOI( 
-        	[-123.102270, 49.273454], 'Seaside Greenway', 'Park Board and City Unite' ),
+        	[-123.102270, 49.273454], 'Seaside Greenway', fourthParaText ),
         createPOI( 
         	[-123.102270, 49.273454], 'Seaside Greenway Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data' ,
         	[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
