@@ -39,7 +39,7 @@ var config = {
     footer: 'Source: source citations, etc.',
     chapters: [
         createPOI(
-        	[-123.137186, 49.275323], 'Burrard Street Bridge', firstParaText,
+        	[-123.137186, 49.275323], 'Burrard Street Bridge', 'test',
         	[ { layer: 'bikeways', opacity: 1.0 } ], [ { layer: 'building-extrusion', opacity: 0.3 } ] ),
         createPOI( 
         	[-123.137186, 49.275323], 'Burrard Street Crashes Involving Cyclists', 'INPUT TEXT HERE', 
