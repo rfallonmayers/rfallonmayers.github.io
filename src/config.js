@@ -44,7 +44,7 @@ In essence, the Burrard Bridge is considered one of the first substantial politi
 
 `;
 
-const firstParaText = `The Hornby Street uni-directional bike lane going from the Burrard Bridge through downtown Vancouver was the next section of political cycling infrastructure. Logan, who was working for the city at the time, stated, “If Burrard bridge is a big deal for me, the next big deal would be pre-Hornby and post-Hornby...So post-Hornby is when we do transportation 2040”. Dan, at the city, explained the impetus for planning the Hornby bike lane and thinks it could have been designed better upon reflection.
+const secondParaText = `The Hornby Street uni-directional bike lane going from the Burrard Bridge through downtown Vancouver was the next section of political cycling infrastructure. Logan, who was working for the city at the time, stated, “If Burrard bridge is a big deal for me, the next big deal would be pre-Hornby and post-Hornby...So post-Hornby is when we do transportation 2040”. Dan, at the city, explained the impetus for planning the Hornby bike lane and thinks it could have been designed better upon reflection.
 “We put it on the one street over, and it’s really awkward to get to the Burrard bridge. You have to make this awkward turn, or at the other end, to get to the seawall, you have to make this awkward turn. And so it's actually a really complicated turn, and we've improved it. It was a safety hotspot, comfort hotspot that we've gone back and made it better, but we've introduced these weird kinks, and people are uncomfortable and don't know how to make the turn and just hop on the side block because it's like, what do I do here? So either they don't actually make it to the bridge cause they didn't know, or they end up on the sidewalk because of the way we designed it. And it goes all the way back to like, we picked the wrong one, but through design detail, you can kind of improve it. And so working now, we're kind of going in and making improvements, there's adjacent development, and we're leveraging the adjacent development to actually rethink that whole intersection”.
 
 The Hornby bike lane was a pivotal moment at the time, mainly because it denoted a shift in the relationship between the Downtown Business Improvement Association, the City transportation planners and engineers, and Vancouver cycling advocates. At the beginning of this infrastructure plan, the DVBIA was opposed, and after it was installed, they had slowly changed their opinion of cycling infrastructure in their area. Mia, a cycling advocate, remembers the opposition at the time and the role of the BIA. The BIA changed their position and now have ongoing support for cycling. She recalled:
@@ -83,7 +83,7 @@ var config = {
         	[-123.137186, 49.275323], 'Burrard Street Bike Racks', 'This layer represents the presence of bike racks in Vancouver and the density of bike racks at the location',  
         	[ { layer: 'bike-racks', opacity: 1.0 } ] ),
         createPOI( 
-        	[-123.124980, 49.280540], 'Hornby Street', 'Continuing Politics and BIA Influence-INPUT TEXT HERE' ),
+        	[-123.124980, 49.280540], 'Hornby Street', secondParaText,
         createPOI(
         	[-123.124980, 49.280540], 'Hornby Street Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data' ,
  			[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
