@@ -164,46 +164,46 @@ var config = {
         	[-123.124980, 49.280540], 'Hornby Street', secondParaText ),
         createPOI(
         	[-123.124980, 49.280540], 'Hornby Street Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data' ,
- 			[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
+ 			[ { layer: 'bc-crashes-involving-cyclists', opacity: 0.5 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
  		createPOI( 
         	[-123.103500, 49.277440], 'Dunsmuir Street', thirdParaText ),
         createPOI( 
         	[-123.103500, 49.277440], 'Dunsmuir Street Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data' ,
-        	[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
+        	[ { layer: 'bc-crashes-involving-cyclists', opacity: 0.5 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
         createPOI( 
         	[-123.102270, 49.273454], 'Seaside Greenway', fourthParaText ),
         createPOI( 
         	[-123.102270, 49.273454], 'Seaside Greenway Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data' ,
-        	[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
+        	[ { layer: 'bc-crashes-involving-cyclists', opacity: 0.5 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
 		createPOI(
         	[-123.185915, 49.272282], 'Point Grey Road', fifthParaText ),
         createPOI(
          	[-123.185915, 49.272282], 'Point Grey Road Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data',
-         	[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
+         	[ { layer: 'bc-crashes-involving-cyclists', opacity: 0.5 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
         createPOI( 
         	[-123.15295, 49.275723], 'Kitsilano Beach', sixthParaText, [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
         createPOI( 
         	[-123.15295, 49.275723], 'Kitsilano Beach Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data', 
-        	[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
+        	[ { layer: 'bc-crashes-involving-cyclists', opacity: 0.5 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
         createPOI(
         	[-123.069634, 49.269893], 'Commercial Drive', seventhParaText ),
         createPOI(
         	[-123.069634, 49.269893], 'Commercial Drive Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data' ,
-        	[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
+        	[ { layer: 'bc-crashes-involving-cyclists', opacity: 0.5 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
         createPOI(
         	[-123.133, 49.272], 'Granville Bridge', eighthParaText ),
         createPOI( [-123.133, 49.272], 'Granville Bridge Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data',
-        	[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] 	),
+        	[ { layer: 'bc-crashes-involving-cyclists', opacity: 0.5 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] 	),
 		createPOI(
 			[-123.126745, 49.297189], 'Stanley Park Seawall', ninethParaText ),
 		createPOI(
 			[-123.126745, 49.297189], 'Stanley Park Seawall Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data',
-			[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
+			[ { layer: 'bc-crashes-involving-cyclists', opacity: 0.5 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
 		createPOI(
 			[-123.1140, 49.2608], 'Vancouver', 'Here you can see Vancouvers bikeways and bike racks throughout the city', [], [], 11, 0 ),
 		createPOI(
 			[-123.1140, 49.2608], 'Vancouver Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists across Vancouver sourced from ICBC data',
-			[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ],
+			[ { layer: 'bc-crashes-involving-cyclists', opacity: 0.5 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ],
 			11, 0 )
 		]
 };
