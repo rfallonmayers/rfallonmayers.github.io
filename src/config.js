@@ -83,7 +83,7 @@ var config = {
         	[-123.137186, 49.275323], 'Burrard Street Bike Racks', 'This layer represents the presence of bike racks in Vancouver and the density of bike racks at the location',  
         	[ { layer: 'bike-racks', opacity: 1.0 } ] ),
         createPOI( 
-        	[-123.124980, 49.280540], 'Hornby Street', secondParaText,
+        	[-123.124980, 49.280540], 'Hornby Street', secondParaText ),
         createPOI(
         	[-123.124980, 49.280540], 'Hornby Street Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data' ,
  			[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
