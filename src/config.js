@@ -155,7 +155,7 @@ var config = {
         	[-123.137186, 49.275323], 'Burrard Street Bridge', firstParaText, 
         	[ { layer: 'bikeways', opacity: 1.0 } ], [ { layer: 'building-extrusion', opacity: 0.3 } ] ),
         createPOI( 
-        	[-123.137186, 49.275323], 'Burrard Street Crashes Involving Cyclists', 'INPUT TEXT HERE', 
+        	[-123.137186, 49.275323], 'Burrard Street Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data', 
         	[ { layer: 'bc-crashes-involving-cyclists', opacity: 0.5 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ), 
         createPOI( 
         	[-123.137186, 49.275323], 'Burrard Street Bike Racks', 'This layer represents the presence of bike racks in Vancouver and the density of bike racks at the location',  
