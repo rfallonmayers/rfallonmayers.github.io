@@ -60,6 +60,13 @@ With the Burrard Bridge, Hornby bike lane, and the relationship with the DVBIA c
 
 `; 
 
+const thirdParaText = `By the time the Dunsmuir project happened in 2010, the culture of transportation had shifted in Vancouver. From Logan’s perspective, who was working for the city at the time, the Dunsmuir project was “Pure pragmatic…It made sense. None of the bike networks worked until you connected it downtown”. Sarah, a previous councillor, discussed the radio show CKNW and the backlash she had gotten in years past. Yet, after Dunsmuir, there wasn’t as much backlash or complaints about the infrastructure. She elaborated:
+“The last time I did an interview with Bill Good, it wasn't long before he retired...We had a chat, and I was on for a half-hour open line. And that's when the haters call...So nobody called in. One person called in on a totally different issue. And then somebody called in with a question for Bill that had nothing to do with me. Nobody called in to complain about Dunsmuir. And Bill said to me, things have changed. You've turned, you've turned the corner on this one. No, one's complaining”.
+
+That was when Sarah knew cycling in Vancouver was there to stay, and they had successfully shifted the culture of transportation if only a little bit. Once more residents started cycling, and it became a more popular mode of transportation and recreation, decision-makers wanted to make an ambitious plan for the future of transportation in Vancouver. The Transportation 2040 plan was approved by council shortly after in 2012, which paved the way for the following projects.
+
+`;
+
 var config = {
     //style: 'mapbox://styles/mapbox/streets-v11',
     style: 'mapbox://styles/rmayers2/ckrdsuoup0toz17oaiyp4fjuk?fresh=true',     
@@ -88,7 +95,7 @@ var config = {
         	[-123.124980, 49.280540], 'Hornby Street Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data' ,
  			[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
  		createPOI( 
-        	[-123.103500, 49.277440], 'Dunsmuir Street', 'Connecting Downtown' ),
+        	[-123.103500, 49.277440], 'Dunsmuir Street', thirdParaText ),
         createPOI( 
         	[-123.103500, 49.277440], 'Dunsmuir Street Crashes Involving Cyclists', 'This layer represents the crashes involving cyclists at this location sourced from ICBC data' ,
         	[ { layer: 'bc-crashes-involving-cyclists', opacity: 1.0 } ], [ { layer: 'bc-crashes-involving-cyclists', opacity: 0.0 } ] ),
